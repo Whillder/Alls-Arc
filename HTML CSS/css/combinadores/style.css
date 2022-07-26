@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* h2 + p {
+    color: red; 
+}combinador de hermano, cuando este uno cerca h2 con un p cerca*/
+/* alt 126
+h2 ~ p{
+    color: red;
+} hermano general, cuando tiene un p en alguna parte del codigo un h2, aplica en todos los parrafos */
+/* div > p{
+    color: red;
+} hijo directo */
+div article p{
+    color: red;
+}

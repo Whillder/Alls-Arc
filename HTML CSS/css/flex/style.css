@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;/*ajusta la caja calcula automaticamente el borde y el padiding*/
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    /* align-items:center; */
+    /*align-items: baseline;*//*sin altura definida, toma el espacio del contenido del box*/
+    /*align-items: stretch;*//*sin altura definida, se estira hasta el 100% del contenedor padre*/
+    /* justify-content: center; */
+    /* height: 50vh; */
+    flex-wrap: wrap;
+    /* flex-direction: column; *//*lo regresa a una columna*/
+    /* flex-direction: row-reverse;*//*coloca la informacion 1 fila en orden invertido */
+    /*flex-wrap: wrap;*//*ajusta los contenedores debajo en caso de reducir la pantalla autoajuste*/
+    /*justify-content: center;*//*alinea el contenido a donde quieras ubicarlo*/
+    /*justify-content: flex-end*//*alinea el contenido a la derecha*/
+    /*justify-content: space-around;*//*Da el espacio libre a espacio entre contenedores*/
+    /*justify-content: space-evenly;*//*Da el espacio libre a el mismo espacio entre contenedores*/
+}
+.box{
+    /* width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+
+}
+.box1{
+    background-color: blue;
+    flex-grow: 1;
+    
+}
+.box2{
+    background-color: red;
+    flex-grow: 1;/*toma el espacio restante de la pag*/
+    
+}
+.box3{
+    background-color: blueviolet;
+}
+.box4{
+    background-color: darkgreen;
+    
+}
+.box5{
+    background-color:rgb(240, 150, 15);
+    
+}
+.box6{
+    background-color: rgba(150, 148, 61, 0.918);
+}

@@ -1,0 +1,46 @@
+body{
+    background-image: url(/img/pict/lion.jpg);
+    background-size: 100% 110%;
+}
+h1{
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+a 
+{
+   text-decoration: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:rgb(255, 217, 0);
+   font-size: 15px;
+}
+.titulo,.titulo1,.titulo2
+{
+    font-size: 25px;
+    font:bold;
+    list-style:none;
+    color:rgb(255, 255, 255);
+}
+img{
+    width: 60px;
+    border-radius: 50%;
+    
+}
+ol{
+    list-style: none;
+}
+footer{
+
+    color: dimgray;
+    text-align: end;
+}
+
+/*Class
+.texto{
+    color: red;
+}
+/*id*/
+/*#texto1{
+    color: blue;
+    font-size: 24px;
+}*/

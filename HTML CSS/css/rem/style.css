@@ -1,0 +1,23 @@
+/* body{
+    font-size: 13px;
+} */
+/* .text-container{
+    font-size: 1.5em;
+}
+.text-container div{
+    font-size: 1em;
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}/*Whillder aprendete esto siempre iniciar el Css con estos 2 codigos*/
+html{
+    font-size: 62.5%;/*con este % le indico al navegador que cada 1 rem son 10px*/
+}
+p {
+    font-size: 1.6rem;
+}
+.text-container div {
+    font-size: 1.6rem;
+}

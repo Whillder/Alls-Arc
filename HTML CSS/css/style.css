@@ -1,0 +1,16 @@
+a 
+{
+   font-style:none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: blue;
+     
+}
+/*Class*/
+.texto{
+    color: red;
+}
+/*id*/
+#texto1{
+    color: blue;
+    font-size: 24px;
+}

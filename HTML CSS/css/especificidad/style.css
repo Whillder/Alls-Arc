@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;/*ajusta la caja calcula automaticamente el borde y el padiding*/
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: serif;
+    color: purple;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px;
+    padding: 8px;
+}
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+ .nav{
+     margin-top: auto;
+    
+    list-style: none;
+    padding-left: 0;
+}
+.nav li{
+    display: inline-block;
+
+}
+.nav a{
+    color: white;
+    background-color: rgb(3, 109, 74);
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration:none;
+}
+.nav .blog {
+    background-color: red;
+}
