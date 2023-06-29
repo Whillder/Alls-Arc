@@ -13,6 +13,10 @@
 //     }
 // function iniciar(event){
 // 	for (let i = event.resultIndex; i < event.results.length; i++){
-//          document.getElementById('search').innerHTML = event.results[i][0].transcript;
+//          document.getElementById('searchvoice').innerHTML = event.results[i][0].transcript;
 // 	}
 // }
+// const searchvoice = document.querySelector('#searchvoice');
+// const 
+// console.log(searchvoice);
+const aplcations=document.querySelector('.aplication')

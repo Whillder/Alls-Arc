@@ -14,7 +14,7 @@ header{
     height: 5vh;
 }
 body{
-    background-image: url(/img/acc5a1951893d301076c85e2004d3acb.jpg);
+    background-image: url(./img/acc5a1951893d301076c85e2004d3acb.jpg);
     background-position: -170px top;
     background-repeat: no-repeat;
     background-size:2100px 1000px;}
@@ -36,6 +36,10 @@ nav li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+nav li a:hover{
+    text-decoration:underline;
+    color: rgb(255, 255, 255)
+}
 nav li img{
     width: 3rem;
     
@@ -47,9 +51,9 @@ nav li img{
 li img:hover{
     box-shadow: 0px 0px 10px 5px rgba(170, 170, 170, 0.7);
 }
-.img:hover, .tibw:hover{
+/* .img:hover, .tibw:hover{
     text-decoration:underline;
-}
+} */
 main{
     height: 85vh;
     display: flex;
