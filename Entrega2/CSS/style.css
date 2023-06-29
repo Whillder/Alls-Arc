@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+
+    
+}
+/*header*/
+header{
+    background-color: #295264;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 90px;
+    width: 90px;
+}
+header nav ul{
+    padding-right: 20px;
+}
+nav ul li{
+    display: inline-flex;
+    padding-left: 20px;
+}
+nav ul li a:hover{
+    
+    text-decoration: underline;
+
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/*main*/
+main{
+    background-color: #f7f3d5;
+    height: 70vh;
+}
+main h1 {
+    color: #295264;
+    text-align: center;
+    padding-top: 10px;
+}
+/*Index*/
+.inicio section h1{
+    text-align: center;
+}
+.inicio section p{
+    text-align: center;
+}
+.inicio div img{
+    padding: 20px 0 0 20px;
+    height: 500px;
+    width: auto;
+}
+/*Conocimientos*/
+.conocimientos div p{
+    padding: 20px;
+}
+.imagenp{
+    display: inline;
+    justify-items: center;
+    padding:20px;
+    height: 100px;
+    width: 100px;
+}
+.slices{
+    height: 300px;
+    text-align: center;
+    margin-block: auto;
+    border:#295264 solid;
+}
+.slices img{
+    text-align: center;
+    margin-left: 20px;
+}
+.portfolio p{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.portfolio a{
+    display: inline-block;
+    height: 150px;
+    width: 250px;
+    border: #295264 solid;
+    border-radius: 10%;
+    margin: 10px;
+}
+.portfolio section{
+    text-align: center;
+}
+.slice{
+    margin-left: 20px;
+    display: inline-block;
+    height: 300px;
+    text-align: center;
+    border:#295264 solid;
+}
+.slice iframe{
+    text-align: center;
+    margin: 10px;
+    height: 30vh;
+}
+.sobreMi h2{
+    color: #295264;
+    text-align: left;
+    padding: 10px 0 10px 20px; 
+}
+.sobreMi section{
+    margin-top: 20px;
+}
+.sobreMi section a {
+    display: block;
+    padding: 5px 0 5px 20px;
+}
+.conocimientos{
+    height: auto;
+}
+.conocimientos section p{
+    display: inline;
+}
+.contacts{
+    text-align: center;
+}
+.contacts form{
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    width: 320px;
+    border: #295264 solid;
+    margin: 20px;
+}
+.contacts form div {
+    margin-bottom: 5px;
+}
+.contacts form div label {
+    display: inline-block;
+    width: 100px;
+    line-height: 20px;
+}
+.contacts form div input {
+    display: inline-block;
+    width: 200px;
+
+}
+.contacts form div textarea {
+    display: inline-block;
+    width: 310px;
+    outline: none;
+
+}
+.contacts form div button {
+    width: 315px;
+    height: 30px;
+    color: rgb(2, 2, 2);
+    background-color: rgb(110, 110, 110);
+    padding: 1px;
+    font-size: 20px;
+}
+.contacts section{
+    display: inline;
+    padding: 20px;
+
+}
+
+.whatssap{
+    display: block;
+    position: fixed;
+    right: 90px;
+    bottom: 150px;
+    background-color: #295264;
+
+}
+
+/*footer*/
+footer{
+    background-color: #295264;
+    height: 15vh;
+}
+footer p{
+    padding: 10px;
+    color: darkgray;
+}
+footer nav{
+    text-align: end;
+    padding: 10px 20px 0 0;
+}
+footer nav ul{
+    padding-left: 0;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+}
